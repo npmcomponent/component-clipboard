@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var normalize = require('normalized-upload');
-var Emitter = require('emitter');
-var file = require('file');
+var normalize = require('component-normalized-upload');
+var Emitter = require('component-emitter');
+var file = require('component-file');
 
 /**
  * Expose `Clipboard`.

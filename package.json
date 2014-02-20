@@ -1,28 +1,16 @@
 {
   "name": "component-clipboard",
   "description": "Clipboard API wrapper",
+  "version": "0.1.6",
   "keywords": [
     "copy",
     "paste",
     "file",
     "clipboard"
   ],
-  "version": "0.1.6",
-  "scripts": [
-    "index.js"
-  ],
   "dependencies": {
-    "component-file": "0.1.1",
-    "component-emitter": "1.1.2",
-    "component-normalized-upload": "0.0.6"
-  },
-  "component": {
-    "scripts": {
-      "clipboard/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/clipboard.git"
+    "component-file": "git://github.com/npmcomponent/component-file.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-normalized-upload": "git://github.com/npmcomponent/component-normalized-upload.git"
   }
 }
